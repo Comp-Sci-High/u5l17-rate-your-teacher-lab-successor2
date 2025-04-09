@@ -34,7 +34,6 @@
         <label>Username: </label>
         <input type="text" name="username" required />
     
-        <!-- Add the rest of the Book attributes -->
         <label>Teacher: </label>
         <input type="text" name="teacher" />
     
@@ -42,7 +41,7 @@
         <input type="text" name="comment" />
     
         <label>Rating: </label>
-        <input type="number" name="rating" />
+        <input type="number" name="rating" min="0" max="5"/>
 
         <button type="submit">Submit</button>
       </form>
